@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sistem Informasi Perpustakaan</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('image/icon_univ_bsi.png') }}">
+    <title>Toko Online</title>
+    <link rel="icon" type="image/png" sizes="1x1" href="{{ asset('image/tokoonline.png') }}">
     <link href="{{ asset('backend/dist/css/style.min.css') }}" rel="stylesheet">
     <!-- Add FontAwesome CDN -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         body {
-            background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+            background: linear-gradient(1deg, #6B73FF 0%, #000DFF 100%);
             height: 100vh;
             display: flex;
             justify-content: center;
@@ -26,7 +26,7 @@
             border-radius: 12px;
             box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.2);
             max-width: 430px;
-            width: 100%;
+            width: 10%;
         }
 
         .auth-box .db img {
@@ -99,8 +99,8 @@
         <div class="auth-box">
             <div id="loginform">
                 <div class="text-center p-t-20 p-b-20">
-                    <span class="db"><img src="{{ asset('backend/images/admin.png') }}" alt="logo" class="img-fluid" style="max-width: 120px;" /></span>
-                    <h3 class="mt-3" style="color: #6B73FF; font-weight: bold;">Sistem Informasi Perpustakaan</h3>
+                    <span class="db"><img src="{{ asset('image/tokoonline.png') }}" alt="logo" class="img-fluid" style="max-width: 120px;" /></span>
+                    <h3 class="mt-3" style="color: #6B73FF; font-weight: bold;">Toko Online Shop</h3>
                     <p style="font-size: 14px; color: #555;">Silakan login untuk mengakses akun Anda</p>
                 </div>
                 @if(session()->has('error'))

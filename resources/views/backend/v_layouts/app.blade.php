@@ -9,8 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('image/icon_univ_bsi.png') }}">
-    <title>tokoonline</title>
+    <link rel="icon" type="image/png" sizes="1x1" href="{{ asset('image/tokoonline.png') }}">
+    <title>Toko Online</title>
     <!-- Custom CSS -->
     <script src="{{ asset('backend/extra-libs/multicheck/jquery.multicheck.js') }}"></script>
     <script src="{{ asset('backend/extra-libs/DataTables/datatables.min.js') }}"></script>
@@ -151,15 +151,13 @@
                         <b class="logo-icon p-l-10">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="{{ asset('image/icon_univ_bsi.png') }}"
-                                alt="homepage" class="light-logo" />
+                            <img src="{{ asset('image/logo_text.png') }}" alt="homepage" class="light-logo" style="width: 120px; height: auto;" />
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span class="logo-text">
                             <!-- dark Logo text -->
-                            <img src="{{ asset('image/logo_text.png') }}" alt="homepage"
-                                class="light-logo" />
+                            <img src="{{ asset('image/tokoonlinelogo.png') }}" alt="homepage" class="light-logo" style="width: 80px; height: auto;" />
                         </span>
                         <!-- Logo icon -->
                         <!-- <b class="logo-icon"> -->

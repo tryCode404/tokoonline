@@ -1,4 +1,4 @@
-@extends('backend.v_layouts.appcopy')
+@extends('backend.v_layouts.app')
 @section('content')
 <!-- contentAwal -->
 <div class="row">

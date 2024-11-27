@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sistem Informasi Perpustakaan - Register</title>
+    <title>Toko Online</title>
     <style>
         /* Latar belakang body */
         body {
@@ -72,7 +72,7 @@
     <div class="auth-wrapper">
         <div class="auth-box">
             <div class="text-center">
-                <span class="db"><img src="{{ asset('backend/images/admin.png') }}" alt="logo" class="img-fluid" style="max-width: 120px;" /></span>
+                <span class="db"><img src="{{ asset('image/tokoonline.png') }}" alt="logo" class="img-fluid" style="max-width: 120px;" /></span>
                 <h3 class="mt-3" style="color: #6B73FF; font-weight: bold;">Buat Akun Baru</h3>
                 <p>Isi form di bawah untuk mendaftar</p>
             </div>
