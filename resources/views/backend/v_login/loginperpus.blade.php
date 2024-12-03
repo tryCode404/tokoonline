@@ -12,27 +12,29 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         body {
-            background: linear-gradient(1deg, #6B73FF 0%, #000DFF 100%);
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Poppins', sans-serif;
-        }
+    background: linear-gradient(1deg, #6B73FF 0%, #000DFF 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 50px 0; /* Tambahkan padding untuk memberi ruang di bagian atas dan bawah */
+}
 
-        .auth-box {
-            background: #fff;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.2);
-            max-width: 430px;
-            width: 10%;
-        }
+.auth-wrapper {
+    width: 100%;
+    max-width: 430px; /* Batasi lebar maksimum */
+    padding: 20px;
+    margin: auto;
+}
 
-        .auth-box .db img {
-            margin-bottom: 20px;
-            animation: fadeIn 1.5s;
-        }
+.auth-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
 
         .input-group .input-group-text {
             border-radius: 12px 0 0 12px;
@@ -46,11 +48,6 @@
             border: 1px solid #ddd;
             padding: 10px 15px;
             font-size: 16px;
-        }
-
-        .form-control:focus {
-            border-color: #6B73FF;
-            box-shadow: 0px 0px 8px rgba(107, 115, 255, 0.5);
         }
 
         .btn {
